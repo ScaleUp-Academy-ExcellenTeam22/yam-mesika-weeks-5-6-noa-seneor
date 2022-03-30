@@ -3,10 +3,8 @@ from functools import reduce
 
 def join(*parameters, sep='-'):
     """
-    concatenate the lists received as parameters with
-    separator received as parameter or with "-"
-    :param parameters:
-    :param sep:
+    :param parameters: argument lists
+    :param sep: separator character (default "-")
     :return: concatenated list
     """
     if not parameters:
